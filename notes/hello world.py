@@ -26,3 +26,30 @@ print("Here is another one")
 print(6 % 2)
 print(5 % 2)
 print(11 % 4)     # Modulus (Remainder)
+
+# Powers
+# Whats is 2^100
+print(2 ** 100)
+
+# taking inut
+name = input ("What is your name?")
+print ("Hello %s." % name)
+
+age = input ("How old are you ? > _")
+print ("%s?!? You belong in a museum." % age)
+print()
+print("#s is really old. They are %s years old." % (name, age))
+
+# Variable Assignments
+car_name = "Wiebe Mobile"
+car_type = "Tesla"
+car_cylinders = 16
+car_mile_per_gallon = 0.01
+
+#Make it point. "I have acar called WiebeMobile. It is a Tesla."
+print("I have a car called %s. It is %s" % (car_name, car_type))
+
+# Recasting
+real_age = int(input ("How old are you again?"))
+hidden_age = real_age + 5
+print("This your age : %d" % hidden_age)
