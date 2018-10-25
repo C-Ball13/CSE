@@ -1,0 +1,6 @@
+name = input ("What is your name")
+print ("Hello %s." % name)
+print("Your going to help me finish my essay")
+print()
+print()
+word = input ("Give me a verb")

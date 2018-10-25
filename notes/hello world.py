@@ -31,14 +31,14 @@ print(11 % 4)     # Modulus (Remainder)
 # Whats is 2^100
 print(2 ** 100)
 
-# taking inut
+# taking input
 name = input ("What is your name?")
 print ("Hello %s." % name)
 
 age = input ("How old are you ? > _")
 print ("%s?!? You belong in a museum." % age)
 print()
-print("#s is really old. They are %s years old." % (name, age))
+print("#s is really old. They are %s years old." % (name,age))
 
 # Variable Assignments
 car_name = "Wiebe Mobile"
