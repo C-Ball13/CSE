@@ -38,7 +38,7 @@ print ("Hello %s." % name)
 age = input ("How old are you ? > _")
 print ("%s?!? You belong in a museum." % age)
 print()
-print("#s is really old. They are %s years old." % (name,age))
+print("#s is really old. They are %s years old." % (age,name))
 
 # Variable Assignments
 car_name = "Wiebe Mobile"
