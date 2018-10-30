@@ -19,5 +19,6 @@ print()
 
 
 
-print("A hero  up for anyone they don’t  they help.  stand up for what   believe in. A hero would do anything to stand up for what believe in he or she would sacrifice himself or herself for the better. Jonas went to elsewhere to free the memories and save Gabe. Hero's do things what they think is right for someone or someplace.")
+print("A hero  up for anyone they don’t  they help.  stand up for what   believe in. A hero would do anything to stand up for what believe in he or she would sacrifice himself or herself for the better. Jonas went to elsewhere to free the memories and save Gabe. Hero's do things what they think is right for someone or someplace inpu
 
+#adjective = input("type in a an adjective:)
