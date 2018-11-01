@@ -104,8 +104,8 @@ for i in range (10)
 # While Loops
 a = 1
 while a < 10:
-    print (a)
-    a %= 2   # This is the same as saying a = a + 1
+   print (a)
+  a %= 2   # This is the same as saying a = a + 1
 
 """
 At the moement START the loop:
@@ -121,7 +121,7 @@ if sunny:
 
 
 def grade_calc(percentage):
-    if precentage >= 90 :
+    if percentage >= 90 :
         return "A"
     elif percentage >= 80:
         return "B"
@@ -136,6 +136,14 @@ your_grade = grade_calc(82)
 print(your_grade)
 
 
-    #"Random" NOtes
-    import random  # This should be on line 1
+     "Random" NOtes
+   import random  # This should be on line 1
     print(random.randint (0, 100))
+
+    # Equality Statements
+print(5 > 3)
+print(5>=3)
+print(3!= 4)
+"""a = 3 # A s set to 3
+a == 3 # Is a equal to 3?
+"""
