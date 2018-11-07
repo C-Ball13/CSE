@@ -40,7 +40,7 @@ age = input ("How old are you ? > _")
 print ("%s?!? You belong in a museum." % age)
 print()
 print("#s is really old. They are %s years old." % (age,name))
-
+"""
 # Variable Assignments
 car_name = "Wiebe Mobile"
 car_type = "Tesla"
@@ -136,7 +136,7 @@ your_grade = grade_calc(82)
 print(your_grade)
 
 
-     "Random" NOtes
+     "Random Notes"
    import random  # This should be on line 1
     print(random.randint (0, 100))
 

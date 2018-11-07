@@ -10,22 +10,23 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CSE$Caleb_B___Mad_Lib.coverage" NAME="Caleb B - Mad Lib Coverage Results" MODIFIED="1541176001523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CSE$Caleb_B___Guess_Game.coverage" NAME="Caleb B - Guess Game Coverage Results" MODIFIED="1541174936688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CSE$Caleb_B___Guess_Game.coverage" NAME="Caleb B - Guess Game Coverage Results" MODIFIED="1541612373294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSE$hello_world.coverage" NAME="hello world Coverage Results" MODIFIED="1541090530089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-220654000">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.35" value="2" />
           <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.39" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -35,7 +36,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3522" />
+          <entry key="Python" value="3833" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -45,7 +46,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3522" />
+          <entry key="py" value="3833" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -57,12 +58,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes/hello world.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+            <state>
+              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
               <folding>
-                <marker date="1541090529948" expanded="true" signature="1336:1341" ph="..." />
-                <marker date="1541090529948" expanded="true" signature="1417:1422" ph="..." />
-                <marker date="1541090529948" expanded="true" signature="2152:2413" ph="..." />
+                <marker date="1541610979430" expanded="true" signature="1339:1344" ph="..." />
+                <marker date="1541610979430" expanded="true" signature="1420:1425" ph="..." />
+                <marker date="1541610979430" expanded="true" signature="2155:2416" ph="..." />
               </folding>
             </state>
           </provider>
@@ -71,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Caleb B - Guess Game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="187">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -80,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Caleb B - Mad Lib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -124,6 +125,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,7 +142,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -163,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Caleb B - Mad Lib">
+  <component name="RunManager" selected="Python.Caleb B - Guess Game">
     <configuration name="Caleb B - Guess Game" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,8 +238,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Caleb B - Mad Lib" />
         <item itemvalue="Python.Caleb B - Guess Game" />
+        <item itemvalue="Python.Caleb B - Mad Lib" />
         <item itemvalue="Python.hello world" />
       </list>
     </recent_temporary>
@@ -260,7 +261,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24886535" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25642964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -292,27 +293,27 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Caleb B - Mad Lib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/hello world.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+        <state>
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
           <folding>
-            <marker date="1541090529948" expanded="true" signature="1336:1341" ph="..." />
-            <marker date="1541090529948" expanded="true" signature="1417:1422" ph="..." />
-            <marker date="1541090529948" expanded="true" signature="2152:2413" ph="..." />
+            <marker date="1541610979430" expanded="true" signature="1339:1344" ph="..." />
+            <marker date="1541610979430" expanded="true" signature="1420:1425" ph="..." />
+            <marker date="1541610979430" expanded="true" signature="2155:2416" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Caleb B - Guess Game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
         </state>
       </provider>
     </entry>

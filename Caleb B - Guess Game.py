@@ -5,7 +5,8 @@ Warm: Flase
 if sunny and warm.
 go_outside"""
 
+(random.randint(0, 10)
 
-print(random.randint(0, 100))
-
-
+(guesses_left = 5)
+(playing = True))
+    while  guesses_left >0 and playing:
