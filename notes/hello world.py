@@ -100,14 +100,13 @@ for i in range (10)
 
     for i in range (5):
         f(i)
-"""
+
 # While Loops
 a = 1
 while a < 10:
    print (a)
   a %= 2   # This is the same as saying a = a + 1
 
-"""
 At the moement START the loop:
 For loops - Use when how many  you know EXACTLY iterations 
 While Loops - Use when you DON'T how many iteration
