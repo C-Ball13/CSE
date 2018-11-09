@@ -6,5 +6,7 @@ print()
 print(random.randint(1,6))
 print(random.randint(1,6))
 
-
+a = 1
+while a < 1:
+    print(random.randint(1,6))
 
