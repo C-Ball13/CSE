@@ -6,7 +6,17 @@ print()
 print(random.randint(1,6))
 print(random.randint(1,6))
 
+"""
 a = 1
-while a < 1:
-    print(random.randint(1,6))
+while a < 5:
+   print (random.randint(1,6))
+a %= 2
+"""
+for i in range (10000):  
+    say_it(i)
 
+for i in range (10):
+    print(i + 1)
+
+    for i in range (5):
+        f(i)

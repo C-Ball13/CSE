@@ -9,4 +9,3 @@ go_outside"""
 
 (guesses_left = 5)
 (playing = True))
-    while  guesses_left >0 and playing:
