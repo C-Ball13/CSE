@@ -1,11 +1,15 @@
-import random
-"""While ____and ___ 
-Sunny: Flase
-Warm: Flase
-if sunny and warm.
-go_outside"""
+number = 5
+guesses = 5
+win = False
 
-(random.randint(0, 10)
-
-(guesses_left = 5)
-(playing = True))
+while guesses > 0:
+    num = int(input("what's a number from 1 to 10"))
+    if num > 11:
+        print("That's to high")
+        guesses = - 1
+    elif num > number:
+        print("That's way to low")
+        guesses = guesses - 1
+    elif num == number:
+        print("You got the answer")
+        guesses = 0

@@ -1,22 +1,16 @@
 import random
-print("You currently have $15 and we are playing lucky 7's. ")
-print("Are you ready to get more money")
-print()
-print()
-print(random.randint(1,6))
-print(random.randint(1,6))
+Rounds = 1
+BestRound = 1
+money = 35
+MostMoney = Money
 
-"""
-a = 1
-while a < 5:
-   print (random.randint(1,6))
-a %= 2
-"""
-for i in range (10000):  
-    say_it(i)
-
-for i in range (10):
-    print(i + 1)
-
-    for i in range (5):
-        f(i)
+while money > 0:
+    if MostMoney < money:
+        MostMoney = money
+        BestRound = Rounds
+    Rounds = (Rounds + 1)
+    print("yYou currently have %d dollars" % money)
+    FirstDice = random.randint (1,6)
+    SecondDice = random.randint (1,6)
+    print("The First dice is %d" % FirstDice)
+    print()
