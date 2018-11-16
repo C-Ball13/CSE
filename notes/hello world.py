@@ -110,7 +110,7 @@ while a < 10:
 At the moement START the loop:
 For loops - Use when how many  you know EXACTLY iterations 
 While Loops - Use when you DON'T how many iteration
-"""
+
 
 # Control Structure (If Statement)
 sunny = False
@@ -145,4 +145,4 @@ print(5>=3)
 print(3!= 4)
 """a = 3 # A s set to 3
 a == 3 # Is a equal to 3?
-"""
+
