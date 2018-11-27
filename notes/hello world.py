@@ -40,7 +40,8 @@ age = input ("How old are you ? > _")
 print ("%s?!? You belong in a museum." % age)
 print()
 print("#s is really old. They are %s years old." % (age,name))
-"""
+
+"
 # Variable Assignments
 car_name = "Wiebe Mobile"
 car_type = "Tesla"
@@ -54,12 +55,12 @@ print("I have a car called %s. It is %s" % (car_name, car_type))
 real_age = int(input ("How old are you again?"))
 hidden_age = real_age + 5
 print("This your age : %d" % hidden_age)
-"""
 
-"""
+
+
 This is a muti-line comment 
 Anything Between this "s is not run.
-"""
+
 
 
 
@@ -80,7 +81,7 @@ def f(x):
 f(1)
 f(5)
 f(5000)
-"""
+
 # Distance Formula
 def distance(x1 y1, x2, y2):
     dist = ((x1-x2)**2 + (y2-y1)**2)(1/2)
@@ -88,9 +89,8 @@ def distance(x1 y1, x2, y2):
 
 
     distance(0, 0, 3, 4)
-    distance(0, 0, 5, 12)
-"""
-"""
+    distance(0, 0,
+
 # Loops
 for i in range (10000):  #This gives the number 0 through 4
     say_it()
@@ -107,9 +107,9 @@ while a < 10:
    print (a)
   a %= 2   # This is the same as saying a = a + 1
 
-At the moement START the loop:
-For loops - Use when how many  you know EXACTLY iterations 
-While Loops - Use when you DON'T how many iteration
+#At the moement START the loop:
+#For loops - Use when how many  you know EXACTLY iterations
+#While Loops - Use when you DON'T how many iteration
 
 
 # Control Structure (If Statement)
@@ -143,6 +143,61 @@ print(your_grade)
 print(5 > 3)
 print(5>=3)
 print(3!= 4)
-"""a = 3 # A s set to 3
+a = 3 # A s set to 3
 a == 3 # Is a equal to 3?
+"""
+food_list = ["pizza", "tamales", "tacos", "pie", "enchiladas", "noodles","chicken" ,"salad"]
 
+print(len(food_list))
+# Adding stuff to a list
+food_list.append("bacon")
+food_list.append("eggs")
+# Notice that everything is object . method (paraemeters)
+print(food_list)
+
+food_list.insert(1, "eggo waffles")
+print(food_list)
+
+# removing this from a list
+food_list.remove("salad")
+print(food_list)
+
+food_list.append("cake")
+food_list.append("candy")
+food_list.append("chips")
+
+print(food_list)
+
+# Tuples
+brand = ("apples" , "samsung" , "HTC") # Notice the parentheses
+
+# Also removing stuff a list
+print(food_list)
+food_list.pop(0)
+print(food_list)
+
+
+# Find the index of an item
+print(food_list.index ("chicken"))
+
+
+# Changing things into a list
+string1 = "turquoise"
+list1 = (string1)
+print(list1)
+
+
+for i in range (len(list1)):     # i goes through all indicies
+    if list1[i] == "u":  # remove the i-th index
+        list1.pop(i)
+        list1.insert(i, "*") # Put a * there instead
+
+for charatcer in list1 :
+    if charatcer == "u":
+         #replace with a *
+        current_index = list1.index(charatcer)
+        list1.pop (current_index)
+        list1.insert(current_index, "*")
+
+# Turn a list into a string
+print("".join(list1))
