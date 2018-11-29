@@ -15,7 +15,7 @@ print()
 word5 = input("Give me an Noun")
 word6 = input("Give me another Noun")
 word7 = input("give me An Adjective")
-print("%s went to elsewhere to free the memories and save %s. Hero's do things what they think is right for someone or %s."%( word,word,word))
+print("%s went to elsewhere to free the memories and save %s. Hero's do things what they think is right for someone or %s."%( word, word, word))
 print()
 
 
@@ -23,4 +23,3 @@ print()
 
 
 
-#adjective = input("type in a an adjective:)

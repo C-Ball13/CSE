@@ -189,13 +189,12 @@ print(list1)
 
 for i in range (len(list1)):     # i goes through all indicies
     if list1[i] == "u":  # remove the i-th index
-        list1.pop(i)
+        list1.pop (i)
         list1.insert(i, "*") # Put a * there instead
 
-for charatcer in list1 :
-    if charatcer == "u":
-         #replace with a *
-        current_index = list1.index(charatcer)
+for charater in list1 :
+    if charater == "u":
+        current_index = list1.index(charater)
         list1.pop (current_index)
         list1.insert(current_index, "*")
 
