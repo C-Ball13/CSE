@@ -24,4 +24,12 @@ print(color[2])
 
 print(len(color))
 
+import string
+print(list(string.ascii_letters))
+print(string.digits)
+print(string.punctuation)
+
+
+
+
 
