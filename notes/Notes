@@ -1,0 +1,8 @@
+states = {
+    "CA": "California",
+    "FL": "Florida",
+    "AK": "Alaska",
+    "GA": "Georgia"
+}
+
+print(states{"AK"})

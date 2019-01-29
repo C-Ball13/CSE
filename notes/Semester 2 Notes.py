@@ -29,7 +29,14 @@ print(list(string.ascii_letters))
 print(string.digits)
 print(string.punctuation)
 
+states = {
+    "CA": "California",
+    "FL": "Florida",
+    "AK": "Alaska",
+    "GA": "Georgia"
+}
 
+print(states)
 
 
 
