@@ -40,7 +40,7 @@ print(georgia)
 complex_dictionary = {
     "CA": {
       "NAME": "California",
-        "POPULATION": 39500000
+        "POPULATION": 39500000,
         "CITES": [
             "Fresno",
             "San Francisco",
@@ -49,8 +49,8 @@ complex_dictionary = {
     },
     "FL": {
         "NAME": "Florida",
-        "POPULATION": 21300000
-        "CITES":[
+        "POPULATION": 21300000,
+        "CITES": [
             "Miami",
             "Orlando",
             "Tampa",
@@ -61,7 +61,7 @@ complex_dictionary = {
     },
     "AK": {
         "NAME": "Alaska",
-        "POPULATION": 737000
+        "POPULATION": 737000,
         "CITIES": [
             "Anchorage",
             "Fairbanks",
@@ -71,10 +71,13 @@ complex_dictionary = {
     },
     "GA": {
         "NAME": "Georgia",
-        "POPULATION": 10500000
+        "POPULATION": 10500000,
         "CITIES": [
             "Atlanta",
             "Savannah",
             "Augusta"
         ]
     }
+}
+
+print(complex_dictionary["AK"]["CITIES"])
