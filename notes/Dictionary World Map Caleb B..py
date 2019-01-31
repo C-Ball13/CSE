@@ -1,17 +1,17 @@
-world_map= {
+world_map = {
     'R19A': {
         'NAME': "Mr. Wiebe's Room",
-        'DESCRIPTION': "This is the clasroom you are in right now",
-    "Now.There are two doors on the north wall"
+        'DESCRIPTION': "This is the clasroom you are in right now"
+                    "now.There are two doors on the north wall",
         'PATHS': {
-            'North': "PARKING_LOT"
+                'NORTH': "PARKING_LOT"
         },
         'PARKING_LOT': {
             'NAME': "The North Parking Lot",
             'DESCRIPTION': "There are a couple parked here",
             'PATHS': {
-                'South': "R19A"
-             }
+                'SOUTH': "R19A"
+            }
         }
     }
 }
@@ -19,8 +19,19 @@ world_map= {
 # Controller
 playing = True
 current_node = world_map["R19A"]
+directions = ['NORTH', 'SOUTH', 'EATS', 'WEST', 'UP', 'DOWN']
+
 while playing:
     print(current_node['NAME'])
     print(current_node['DESCRIPTION'])
     command = input(">_")
-    if command.lover() in['q','quit','exit']:
+    if command.lower() in ['q', 'quit', 'exit']:
+        playing = False
+    elif command.upper() in directions:
+        try:
+            room_name = current_node['PATHS'][command.upper()]
+            current_node = world_map[room_name]
+        except KeyError:
+            print("I can't go that way")
+    else:
+        print("Command Not found")
