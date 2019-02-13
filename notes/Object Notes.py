@@ -1,5 +1,9 @@
+import Special_Random
+
+
+
 class Phone(object):
-    def __init__(self, carrier, change_left):
+    def __init__(self, carrier, change_left = 50):
         # There are attributes that a phone has
         # There should all be relevant to our program
         self.screen = True
@@ -14,7 +18,7 @@ class Phone(object):
             self.battery_left = 100
 
     def makw_call(self,duration):
-        if not self.screen
+        if not self.screen:
             print("You can't make a phone call.")
             print("Your screen is broken.")
             return
@@ -26,7 +30,25 @@ class Phone(object):
         elif self.battery_left == 0:
             print("Your phone dies at the end of the conversation")
         else:
-        print("You successfully make the phone call")
-        print("Your phone is now at &s" % self.battery_left)
+            print("You successfully make the phone call")
+            print("Your phone is now at %s" % self.battery_left)
 
-my_phone = Phone ()
+    def smash_phone(self):
+        print("SMASH!!!!!!!!!!!!!!")
+        print("It broke.")
+        self.screen = False
+
+
+my_phone = Phone ("ATT", 100)
+your_phone = Phone("Bell")
+default_phone = Phone ("Verizon")
+
+my_phone.makw_call(60)
+my_phone.makw_call(10)
+my_phone.charge(100)
+my_phone.makw_call(10)
+your_phone.smash_phone()
+your_phone.makw_call(1)
+
+
+print(Special_Random.RandomCaleb.myrandom())
