@@ -35,3 +35,20 @@ while playing:
             print("I can't go that way")
     else:
         print("Command Not found")
+
+
+class Room(object):
+    def __init__(self, name, north=None, south=None, east=None):
+        self.name = name
+        self.north = north
+        self.south = south
+        self.east = east
+
+
+R19A = Room ("Mr. Wiebe's Room")
+parking_lot = Room("Parking Lot", None, R19A)
+
+R19A.north = parking_lot
+
+R19A = Room("Mr. Wiebe's Room", 'parking_lot')
+parking_lot = Room("Parking Lot", None,)
