@@ -15,6 +15,7 @@ world_map = {
         }
     },
     'Yellow House': {
-
+        'NAME': "Nucktown Yellow House",
+        'DESCRIPTION': ""
     }
 }
