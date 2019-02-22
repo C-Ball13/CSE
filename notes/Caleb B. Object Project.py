@@ -13,3 +13,5 @@ class Sweet_Potate_Pie(object):
             self.pie_left = 100
 
     def get_pie(self,):
+        if not self.pan
+            

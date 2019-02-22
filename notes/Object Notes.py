@@ -16,7 +16,7 @@ class Phone(object):
         if self.battery_left > 100:
             self.battery_left = 100
 
-    def makecall(self,duration):
+    def makecall(self, duration):
         if not self.screen:
             print("You can't make a phone call.")
             print("Your screen is broken.")
@@ -42,12 +42,12 @@ my_phone = Phone ("ATT", 100)
 your_phone = Phone("Bell")
 default_phone = Phone ("Verizon")
 
-my_phone.makw_call(60)
-my_phone.makw_call(10)
+my_phone.makecall(10)
+my_phone.makecall(10)
 my_phone.charge(100)
-my_phone.makw_call(10)
+my_phone.makecall(10)
 your_phone.smash_phone()
-your_phone.makw_call(1)
+your_phone.makecall(1)
 
 
 print(Special_Random.RandomCaleb.myrandom())
