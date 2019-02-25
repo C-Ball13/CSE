@@ -45,7 +45,7 @@ class Room(object):
         self.east = east
 
 
-R19A = Room ("Mr. Wiebe's Room")
+R19A = Room("Mr. Wiebe's Room")
 parking_lot = Room("Parking Lot", None, R19A)
 
 R19A.north = parking_lot

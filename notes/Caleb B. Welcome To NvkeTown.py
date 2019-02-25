@@ -11,11 +11,14 @@ world_map = {
         'NAME': "West_side of The Looped_Road",
         'DESCRIPTION': "There is a blue car on your right and i suggest you not to the car.",
         'PATHS': {
-            'EAST': "Place Unknown Nuketown"
+            'EAST': "Nuketown Yellow House"
         }
     },
     'Yellow House': {
-        'NAME': "Nucktown Yellow House",
-        'DESCRIPTION': ""
-    }
+        'NAME': "Nuketown Yellow House",
+        'DESCRIPTION': "They're Three Robot people."
+        "There's stuff in the house as you can see from outside"
+        'PATHS':
+        },
+    },
 }
