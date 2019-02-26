@@ -46,10 +46,11 @@ class Room(object):
 
 
 class Player(object):
-    def __init__(self, starting_location,race):
+    def __init__(self, starting_location,race, description):
         self.current_location = starting_location
         self.inventory = []
         self.race = race
+        self.description = description
 
     def move(self,new_location):
         """This moves the player to a new room.
