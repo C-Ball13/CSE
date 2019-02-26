@@ -45,6 +45,30 @@ class Room(object):
         self.east = east
 
 
+class Player(object):
+    def __init__(self, starting_location,race):
+        self.current_location = starting_location
+        self.inventory = []
+        self.race = race
+
+    def move(self,new_location):
+        """This moves the player to a new room.
+
+        :param new_location: The room object of which are
+        """
+        self.current_location = new_location
+
+    def find_next_room(direction):
+        """This method searches the current room so see if a room
+
+        :param direction:
+        :return:
+        """
+        name _of_ room = getattr(self.current_location, directions)
+
+
+
+
 R19A = Room("Mr. Wiebe's Room")
 parking_lot = Room("Parking Lot", None, R19A)
 
@@ -52,3 +76,25 @@ R19A.north = parking_lot
 
 R19A = Room("Mr. Wiebe's Room", 'parking_lot')
 parking_lot = Room("Parking Lot", None,)
+
+player = Player (R19A)
+
+
+playing = True
+directions = ('north', 'south', 'east', 'west', 'up', 'down')
+
+while playing:
+    print(player.current_location.name)
+    print(player.current_location.description)
+    command = input(">_")
+    if command.lower() in ['q', 'quit', 'exit']:
+        playing = False
+    elif command.lower() in directions:
+        try:
+            next_room = player.find_next_room(command)
+            player.move(next_room)
+        except KeyError:
+            print("I can't go that way")
+    else:
+        print("Command Not found")
+

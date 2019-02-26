@@ -10,5 +10,5 @@ class Room(object):
 Place_Unknown_Nuketown = Room("Blue House")
 Looped_road = Room("Looped_Road",None,Place_Unknown_Nuketown)
 
-Place_Unknown_Nuketown.West  = Looped_road 
+Place_Unknown_Nuketown.West  = Looped_road
 }
