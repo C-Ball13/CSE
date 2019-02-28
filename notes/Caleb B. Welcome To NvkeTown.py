@@ -18,7 +18,6 @@ world_map = {
         'NAME': "Nuketown Yellow House",
         'DESCRIPTION': "They're Three Robot people."
         "There's stuff in the house as you can see from outside"
-        'PATHS':
         },
-    },
-}
+    }
+

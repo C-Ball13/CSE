@@ -1,7 +1,7 @@
 world_map = {
-    'R19A': {
-        'NAME': "Mr. Wiebe's Room",
-        'DESCRIPTION': "This is the classroom you are in right now"
+    'Place Unknown': {
+        'NAME': "Blue House",
+        'DESCRIPTION': ""
                     "now.There are two doors on the north wall",
         'PATHS': {
                 'NORTH': "PARKING_LOT"
@@ -65,7 +65,7 @@ class Player(object):
         :param direction:
         :return:
         """
-        name _of_ room = getattr(self.current_location, directions)
+        name_of_room = getattr(self.current_location, directions)
 
 
 
@@ -98,4 +98,3 @@ while playing:
             print("I can't go that way")
     else:
         print("Command Not found")
-
