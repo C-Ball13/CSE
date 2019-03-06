@@ -1,6 +1,7 @@
-class Vehicle(object)
+class Vehicle(object):
     def __init__(self, name):
         self.name = name
+
 
 class Car(Vehicle):
     def __init__(self, name, milage):
@@ -8,7 +9,6 @@ class Car(Vehicle):
         self.engine_status = False
         self.fuel = 100
         self.milage = milage
-
 
     def start_engine (self):
         self.engine_status = True
@@ -26,6 +26,7 @@ class Car(Vehicle):
         self.engine_status = False
         print("You turn off the car ")
 
+
 class Impala(Car):
     def __init__(self):
         super(Impala, self).__init__("Impala", 25)
@@ -34,7 +35,7 @@ class Impala(Car):
 class KeylessCar(Car):
     def __init__(self, name, milage):
         super(KeylessCar, self).__init__(name , milage)
-        
+
 
 caleb_car = Impala
 caleb_car.start_engine()

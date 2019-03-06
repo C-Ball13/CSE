@@ -11,7 +11,11 @@ world_map = {
             'DESCRIPTION': "There are a couple parked here",
             'PATHS': {
                 'SOUTH': "R19A"
+        }
+            'pAQRKIN':{
+
             }
+
         }
     }
 }
