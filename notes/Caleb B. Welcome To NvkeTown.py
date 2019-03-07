@@ -11,10 +11,12 @@ world_map = {
             'DESCRIPTION': "There is a blue car on your right and i suggest you not to the car.",
             'PATHS': {
                 'EAST': "Nuketown Yellow House"
-            },
-            'Place_Unknown_Nuketown':{
+        },
+            'Place_Unknown_Nuketown': {
                 'NAME': "Nuketown Yellow House",
-                'DESCRIPTION': ""
+                'DESCRIPTION': "There's is a statue in the house as the door is wide open0"
+                'PATHS'
+                'EAST' "Kitchen"
             }
         }
     }
