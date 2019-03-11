@@ -19,11 +19,25 @@ world_map = {
                     'EAST': "Yellow House Kitchen"
                 },
                 'Nuketown Yellow House': {
-                    'NAME': "Yellow House Kitchen"
-                    'DESCRIPTION'
+                    'NAME': "Yellow House Kitchen",
+                    'DESCRIPTION': "There's a class cup on the counter and a sword"
+                    "The sword is glowing red and a lantern is on the floor.There's stairs going south",
+                    'PATHS': {
+                        'SOUTH': "Attic"
+                    },
+                    'Attic': {
+                        'NAME': "Yellow House Attic",
+                        'DESCRIPTION': "It's dark in here you should use the lantern if you picked it up",
+                        'PATHS': {
+                            'SOUTH': "Attic"
+                        },
+                        'Attic': {
+                            'NAME': "Attic",
+                            'DESCRIPTION': "This is an huge attic "
+                        }
+                    }
                 }
             }
         }
     }
 }
-
