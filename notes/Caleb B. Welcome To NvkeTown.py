@@ -27,13 +27,40 @@ world_map = {
                     },
                     'Attic': {
                         'NAME': "Yellow House Attic",
-                        'DESCRIPTION': "It's dark in here you should use the lantern if you picked it up",
+                        'DESCRIPTION': "It's dark in here you should use the lantern",
                         'PATHS': {
                             'SOUTH': "Attic"
                         },
                         'Attic': {
                             'NAME': "Attic",
-                            'DESCRIPTION': "This is an huge attic "
+                            'DESCRIPTION': "This is an huge attic.Watch your step going down the stairs in here.",
+                            'PATHS': {
+                                'WEST': "Attic"
+                            },
+                            'Attic': {
+                                'NAME': "Attic Stairs",
+                                'DESCRIPTION': "You stepped on an broke step and fell through the steps "
+                                               "There's Keys on the floor",
+                                'PATHS': {
+                                    'EAST': "East-side Attic"
+                                },
+                                'Attic': {
+                                    'NAME': "East-Side Attic",
+                                    'DESCRIPTION': "There's an sword glowing blue and a door",
+                                    'PATHS': {
+                                        'EAST': "Place Unknown Nuketown"
+                                    },
+                                    'Place Unknown Nuketown': {
+                                        'NAME': "Rest Room",
+                                        'DESCRIPTION': "There's and backpack on the floor"
+                                                       "Food and water on the back pack ",
+                                        'PATHS':{
+                                            'NORTH': "Place Unknown Nuketown"
+                                        },
+                                        'Place Unknown Nuketown'
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -41,3 +68,23 @@ world_map = {
         }
     }
 }
+
+
+playing = True
+current_node = world_map["Place Unknown Nuketown"]
+directions = ['NORTH', 'SOUTH', 'EAST', 'WEST', 'UP', 'DOWN']
+
+while playing:
+    print(current_node['NAME'])
+    print(current_node['DESCRIPTION'])
+    command = input(">_")
+    if command.lower() in ['q', 'quit', 'exit']:
+        playing = False
+    elif command.upper() in directions:
+        try:
+            room_name = current_node['PATHS'][command.upper()]
+            current_node = world_map[room_name]
+        except KeyError:
+            print("I can't go that way")
+    else:
+        print("Command Not found")
