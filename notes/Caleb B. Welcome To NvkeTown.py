@@ -54,10 +54,27 @@ world_map = {
                                         'NAME': "Rest Room",
                                         'DESCRIPTION': "There's and backpack on the floor"
                                                        "Food and water on the back pack ",
-                                        'PATHS':{
+                                        'PATHS': {
                                             'NORTH': "Place Unknown Nuketown"
                                         },
-                                        'Place Unknown Nuketown'
+                                        'Place Unknown Nuketown': {
+                                            'NAME': "Attic Hallway",
+                                            'DESCRIPTION': "There's an room ahead with the same"
+                                                           "statue from the Yellow House",
+                                            'PATHS': {
+                                                'WEST': "Place Unknown Nuketown"
+                                            },
+                                            'PLace Unknown Nuketown': {
+                                                'NAME': "G-BO Game-Room",
+                                                'DESCRIPTION': "There's an rubber ducky on the floor and a phone",
+                                                'PATHS': {
+                                                    'WEST': "Place Unknown Nuketown"
+                                                },
+                                                'Place Unknown Nuketown': {
+                                                    ''
+                                                }
+                                            }
+                                        }
                                     }
                                 }
                             }
