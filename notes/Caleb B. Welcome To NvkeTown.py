@@ -71,7 +71,14 @@ world_map = {
                                                     'WEST': "Place Unknown Nuketown"
                                                 },
                                                 'Place Unknown Nuketown': {
-                                                    ''
+                                                    'NAME': "West-Side Attic",
+                                                    'DESCRIPTION': "An witches broom is on the wall."
+                                                                   "There's and door ahead with lock on it",
+                                                    'PATHS': {
+                                                       'WEST': "Quad Studios"
+                                                    },
+                                                    'Place Unknown Nuketown': "Quad Studios"
+                                                    'DESCRIPTION': " "
                                                 }
                                             }
                                         }

@@ -102,3 +102,5 @@ while playing:
             print("I can't go that way")
     else:
         print("Command Not found")
+
+

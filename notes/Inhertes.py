@@ -38,11 +38,40 @@ class KeylessCar(Car):
 
 
 caleb_car = Impala
-caleb_car.start_engine()
-caleb_car.move_forward()
+caleb_car.start_engine(),
+caleb_car.move_forward(),
+caleb_car.turn_left(),
+caleb_car.move_forward(),
 caleb_car.turn_left()
-caleb_car.move_forward()
-caleb_car.turn_left()
 
 
+class Item(object):
+    def __init__(self, name):
+        self.name = name
 
+
+class Weapon(Item):
+    def __init__(self,name,damage):
+        super(Weapon, self).__init__(name)
+        self.damage = damage
+
+
+class Armor(Item):
+    def __init__(self, name, damage):
+        super(Armor, self).__init__(name)
+        self.armor_ant = armor_ant
+
+
+class Character(object):
+    def __init__(self, name, health, weapon, armor):
+        self.name = name
+        self.health = health
+        self.weapon = weapon
+        self.armor = armor
+
+
+sword = Weapon("Sword, 10")
+canoe = Weapon("Canoe", 42)
+
+
+orc = Character("Orcl", 100, sword, Armor(Genertic))
