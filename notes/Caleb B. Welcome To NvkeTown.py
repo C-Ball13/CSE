@@ -33,14 +33,16 @@ world_map = {
                         },
                         'Attic': {
                             'NAME': "Attic",
-                            'DESCRIPTION': "This is an huge attic.Watch your step going down the stairs in here.",
+                            'DESCRIPTION': "This is an huge attic."
+                                           "Watch your step going down the stairs in here.",
                             'PATHS': {
                                 'WEST': "Attic"
                             },
                             'Attic': {
                                 'NAME': "Attic Stairs",
                                 'DESCRIPTION': "You stepped on an broke step and fell through the steps "
-                                               "There's Keys on the floor",
+                                               "There's Keys on the floor"
+                                               "An thief is on the floor kill him before you get robbed.",
                                 'PATHS': {
                                     'EAST': "East-side Attic"
                                 },
@@ -77,8 +79,22 @@ world_map = {
                                                     'PATHS': {
                                                        'WEST': "Quad Studios"
                                                     },
-                                                    'Place Unknown Nuketown': "Quad Studios"
-                                                    'DESCRIPTION': " "
+                                                    'Place Unknown Nuketown': {
+                                                        'NAME': "Quad Studios",
+                                                        'DESCRIPTION': "The Roof comes off soon as you come in"
+                                                                       "An orc is on the wall look at you"
+                                                                       "you should protect yourself before you die",
+                                                        'PATHS': {
+                                                            "North": "Place Unknown Nuketown"
+                                                        },
+                                                        'Place Unknown Nuketown': {
+                                                            'NAME': "hp Afro Repairs",
+                                                            'DESCRIPTION': "Clouds sudden come out and you get iht "
+                                                                           "with Lightning you fall on an bed with"
+                                                                           "two other beds a bear is on an bed"
+                                                                           "you should talk to him"
+                                                        }
+                                                    }
                                                 }
                                             }
                                         }

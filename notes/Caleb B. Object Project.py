@@ -1,4 +1,4 @@
-class Sweet_Potate_Pie(object):
+class SweetPotatoPie(object):
     def __init__(self,cooked, pie_left,cut_pie):
         self.food = True
         self.sweet = True
