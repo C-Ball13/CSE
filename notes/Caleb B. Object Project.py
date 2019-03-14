@@ -1,17 +1,12 @@
-class SweetPotatoPie(object):
-    def __init__(self,cooked, pie_left,cut_pie):
-        self.food = True
-        self.sweet = True
-        self.cooked = cooked
-        self.pie_left = pie_left
-        self.cut_pie = cut_pie
-        self.pan = 1
+class AN47 (object):
+    def __init__(self, clips_left):
+        self.aim = True
+        self.in_clips = 30
+        self.clips_left = clips_left
 
-    def cut_pie (self, eat):
-        self.pie_left += eat
-        if self.pie_left > 100:
-            self.pie_left = 100
+    def reload(self):
+        if self.clips_left > 0:
+            self.in_clips = 30
+            self.clips_left -= 1
 
-    def get_pie(self,):
-        if not self.pan
-
+    def
