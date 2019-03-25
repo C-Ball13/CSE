@@ -10,10 +10,13 @@ class Weapon(Item):
 
 
 def use_weapon(self):
-    self.durablity -=10
-    print("You")
-class XR_2(Weapon):
+    self.durability -= 10
+    print("You used most of the gun durability")
 
+
+class XR_2(Weapon):
+    def __init__(self):
+        super(Weapon,self).__init__(name)
 
 
 class Armor(Item):
