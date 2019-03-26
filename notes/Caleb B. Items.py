@@ -14,10 +14,12 @@ def use_weapon(self):
     print("You used most of the gun durability")
 
 
-class XR_2(Weapon):
+class XR2(Weapon):
     def __init__(self):
-        super(Weapon,self).__init__(name)
+        super(XR2,self).__init__("XR2")
 
+class SMG(Weapon):
+    
 
 class Armor(Item):
     def __init__(self, name, armor_ant):
