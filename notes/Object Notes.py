@@ -1,6 +1,3 @@
-import Special_Random
-
-
 class Phone(object):
     def __init__(self, carrier, change_left = 50):
         # There are attributes that a phone has

@@ -16,10 +16,13 @@ def use_weapon(self):
 
 class XR2(Weapon):
     def __init__(self):
-        super(XR2,self).__init__("XR2")
+        super(XR2, self).__init__("XR2" )
+
 
 class SMG(Weapon):
-    
+    def __init__(self):
+        super(SMG,self).__init__()
+
 
 class Armor(Item):
     def __init__(self, name, armor_ant):
