@@ -16,21 +16,42 @@ def use_weapon(self):
 
 class XR2(Weapon):
     def __init__(self):
-        super(XR2, self).__init__("XR2", 10)
+        super(XR2, self).__init__("XR2", 70)
 
 
 class SMG(Weapon):
     def __init__(self):
-        super(SMG, self).__init__("SMG" , 10)
+        super(SMG, self).__init__("SMG", 60)
 
 
-class Assault(Weapon):
+class AssaultRifle(Weapon):
     def __init__(self):
-        super(Assault, self).__init__()
+        super(AssaultRifle, self).__init__("AssaultRifle", 90)
 
+
+class PumpShotgun(Weapon):
+    def __init__(self):
+        super(PumpShotgun, self).__init__("PumpShotgun", 80)
+
+
+class Axe(Weapon):
+    def __init__(self):
+        super(Axe, self).__init__("Axe", 50)
+
+
+class Sword(Weapon):
+    def __init__(self):
+        super(Sword, self).__init__("Sword", 70)
+
+
+class AssaultShotgun(Weapon):
+    def __init__(self):
+        super(AssaultShotgun, self).__init__("AssaultShotgun", 60)
+
+
+class 
 
 class Armor(Item):
-    def __init__(self, name, armor_ant):
+    def __init__(self, name, armor_amt):
         super(Armor, self).__init__(name)
-        self.armor_ant = armor_ant
-
+        self.armor_amt = armor_amt
