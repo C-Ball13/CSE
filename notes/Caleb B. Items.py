@@ -49,7 +49,15 @@ class AssaultShotgun(Weapon):
         super(AssaultShotgun, self).__init__("AssaultShotgun", 60)
 
 
-class 
+class ICR7(Weapon):
+    def __init__(self):
+        super(ICR7, self).__init__("ICR7", 75)
+
+
+class MarksmanRifle(Weapon):
+    def __init__(self):
+        super(MarksmanRifle, self).__init__("MarksmanRifle", 100)
+
 
 class Armor(Item):
     def __init__(self, name, armor_amt):
