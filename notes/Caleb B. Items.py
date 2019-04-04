@@ -59,6 +59,26 @@ class MarksmanRifle(Weapon):
         super(MarksmanRifle, self).__init__("MarksmanRifle", 100)
 
 
+class Glock9(Weapon):
+    def __init__(self):
+        super(Glock9, self).__init__("Glock9", 65)
+
+
+class MetalBat(Weapon):
+    def __init__(self):
+        super(MetalBat, self).__init__("MetalBat", 95)
+
+
+class FighingKnife(Weapon):
+    def __init__(self):
+        super(FighingKnife, self).__init__("FightingKnife", 45 )
+
+
+class Spears(Weapon):
+    def __init__(self):
+        super(Spears, self).__init__("Spears", 35)
+
+
 class Armor(Item):
     def __init__(self, name, armor_amt):
         super(Armor, self).__init__(name)

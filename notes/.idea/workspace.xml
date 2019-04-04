@@ -62,7 +62,7 @@
     <session id="-255499387">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="36" />
+          <entry key="project.closed" value="37" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.100" value="1" />
           <entry key="project.open.time.11" value="2" />
@@ -73,7 +73,7 @@
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.41" value="1" />
-          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.42" value="2" />
           <entry key="project.open.time.43" value="2" />
           <entry key="project.open.time.46" value="2" />
           <entry key="project.open.time.48" value="1" />
@@ -91,7 +91,7 @@
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.89" value="1" />
           <entry key="project.open.time.91" value="1" />
-          <entry key="project.opened" value="38" />
+          <entry key="project.opened" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -108,12 +108,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="7650" />
+          <entry key="py" value="7860" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="7650" />
+          <entry key="Python" value="7860" />
         </counts>
       </usages-collector>
     </session>
@@ -173,17 +173,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Caleb B. Items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="58" column="64" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
+            <state relative-caret-position="487">
+              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
               <folding>
-                <marker date="1554309498427" expanded="true" signature="19:24" ph="..." />
-                <marker date="1554309498427" expanded="true" signature="96:101" ph="..." />
-                <marker date="1554309498427" expanded="true" signature="256:332" ph="..." />
-                <marker date="1554309498427" expanded="true" signature="352:1053" ph="..." />
-                <marker date="1554309498427" expanded="true" signature="442:1053" ph="..." />
-                <marker date="1554309498427" expanded="true" signature="541:1053" ph="..." />
-                <marker date="1554309498427" expanded="true" signature="763:1053" ph="..." />
-                <marker date="1554309498427" expanded="true" signature="1175:1268" ph="..." />
+                <marker date="1554396166093" expanded="true" signature="19:24" ph="..." />
+                <marker date="1554396166093" expanded="true" signature="96:101" ph="..." />
+                <marker date="1554396166093" expanded="true" signature="256:332" ph="..." />
+                <marker date="1554396166093" expanded="true" signature="352:1053" ph="..." />
+                <marker date="1554396166093" expanded="true" signature="442:1053" ph="..." />
+                <marker date="1554396166093" expanded="true" signature="541:1053" ph="..." />
+                <marker date="1554396166093" expanded="true" signature="763:1053" ph="..." />
+                <marker date="1554396166093" expanded="true" signature="1175:1690" ph="..." />
+                <marker date="1554396166093" expanded="true" signature="1612:1690" ph="..." />
               </folding>
             </state>
           </provider>
@@ -484,17 +485,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Caleb B. Items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="58" column="64" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
+        <state relative-caret-position="487">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
           <folding>
-            <marker date="1554309498427" expanded="true" signature="19:24" ph="..." />
-            <marker date="1554309498427" expanded="true" signature="96:101" ph="..." />
-            <marker date="1554309498427" expanded="true" signature="256:332" ph="..." />
-            <marker date="1554309498427" expanded="true" signature="352:1053" ph="..." />
-            <marker date="1554309498427" expanded="true" signature="442:1053" ph="..." />
-            <marker date="1554309498427" expanded="true" signature="541:1053" ph="..." />
-            <marker date="1554309498427" expanded="true" signature="763:1053" ph="..." />
-            <marker date="1554309498427" expanded="true" signature="1175:1268" ph="..." />
+            <marker date="1554396166093" expanded="true" signature="19:24" ph="..." />
+            <marker date="1554396166093" expanded="true" signature="96:101" ph="..." />
+            <marker date="1554396166093" expanded="true" signature="256:332" ph="..." />
+            <marker date="1554396166093" expanded="true" signature="352:1053" ph="..." />
+            <marker date="1554396166093" expanded="true" signature="442:1053" ph="..." />
+            <marker date="1554396166093" expanded="true" signature="541:1053" ph="..." />
+            <marker date="1554396166093" expanded="true" signature="763:1053" ph="..." />
+            <marker date="1554396166093" expanded="true" signature="1175:1690" ph="..." />
+            <marker date="1554396166093" expanded="true" signature="1612:1690" ph="..." />
           </folding>
         </state>
       </provider>
