@@ -71,12 +71,20 @@ class MetalBat(Weapon):
 
 class FighingKnife(Weapon):
     def __init__(self):
-        super(FighingKnife, self).__init__("FightingKnife", 45 )
+        super(FighingKnife, self).__init__("FightingKnife", 45)
 
 
 class Spears(Weapon):
     def __init__(self):
         super(Spears, self).__init__("Spears", 35)
+
+
+class Polearm (Weapon):
+    def __init__(self):
+        super(Polearm, self).__init__("Polearm", 55)
+
+
+class
 
 
 class Armor(Item):
