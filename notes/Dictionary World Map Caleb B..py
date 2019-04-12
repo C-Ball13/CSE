@@ -21,7 +21,22 @@ world_map = {
 }
 
 # Controller
-playing = True
+
+        """
+        name_of_room = getattr(self.current_location, directions)
+
+
+
+
+R19A = Room("Mr. Wiebe's Room")
+parking_lot = Room("Parking Lot", None, R19A)
+
+R19A.north = parking_lot
+
+R19A = Room("Mr. Wiebe's Room", 'parking_lot')
+parking_lot = Room("Parking Lot", None,)
+
+player = Player (R19A)playing = True
 current_node = world_map["R19A"]
 directions = ['NORTH', 'SOUTH', 'EATS', 'WEST', 'UP', 'DOWN']
 
@@ -68,21 +83,6 @@ class Player(object):
 
         :param direction:
         :return:
-        """
-        name_of_room = getattr(self.current_location, directions)
-
-
-
-
-R19A = Room("Mr. Wiebe's Room")
-parking_lot = Room("Parking Lot", None, R19A)
-
-R19A.north = parking_lot
-
-R19A = Room("Mr. Wiebe's Room", 'parking_lot')
-parking_lot = Room("Parking Lot", None,)
-
-player = Player (R19A)
 
 
 playing = True

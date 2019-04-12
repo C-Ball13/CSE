@@ -113,7 +113,7 @@ world_map = {
 playing = True
 current_node = world_map["Place Unknown Nuketown"]
 directions = ['NORTH', 'SOUTH', 'EAST', 'WEST', 'UP', 'DOWN']
-
+short_directions = ['N', 'S', 'E', 'W', 'U', 'D']
 while playing:
     print(current_node['NAME'])
     print(current_node['DESCRIPTION'])

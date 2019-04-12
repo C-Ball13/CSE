@@ -2,15 +2,22 @@ world_map = {}
 
 
 class Room(object):
-    def __init__(self, name, north=None, south=None, east=None):
+    def __init__(self, name, description, north=None, south=None, east=None):
         self.name = name
         self.north = north
         self.south = south
         self.east = east
+        self.description = description
+        self.character = []
 
 
-Place_Unknown_Nuketown = Room("Blue House")
-Looped_road = Room("Looped_Road", None, Place_Unknown_Nuketown)
+class Player(object):
+    def __init__(self, starting_location):
+        self.current_location = starting_location
+        self.inventory = []
 
-Place_Unknown_Nuketown.West = Looped_road
+    def move(self, new_location):
+        """this move the player to a new room
 
+        :param
+        """

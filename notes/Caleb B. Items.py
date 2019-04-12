@@ -84,7 +84,9 @@ class Polearm (Weapon):
         super(Polearm, self).__init__("Polearm", 55)
 
 
-class
+class Longbow (Weapon):
+    def __init__(self):
+        super(Longbow, self).__init__("Longbow", 55)
 
 
 class Armor(Item):
