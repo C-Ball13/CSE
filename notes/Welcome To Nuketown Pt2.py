@@ -19,5 +19,16 @@ class Player(object):
     def move(self, new_location):
         """this move the player to a new room
 
-        :param
+        :param new_location: The room object of which you are going to
         """
+        self.current_location = new_location
+
+    def find_next_room
+        """This method searches the current room so see if a room
+               exists in that direction.
+
+        :param direction: The direction that you want to move to
+        :return: The Room object if it exists, or None if it does not
+        """
+        name_of_room = getattr(self.current_location, direction)
+        return globals(name_of_room)
