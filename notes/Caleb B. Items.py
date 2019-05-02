@@ -93,3 +93,19 @@ class Armor(Item):
     def __init__(self, name, armor_amt):
         super(Armor, self).__init__(name)
         self.armor_amt = armor_amt
+
+
+class Head(Item):
+    def __int__(self):
+        super(Head, self).__init__("Head", 140)
+
+
+class Neck(Item):
+    def __init__(self):
+        super(Neck, self).__init__("Head", 120)
+
+
+class Shoulder(Item):
+    def __init__(self):
+        super(Shoulder, self).__init__("Shoulder", 150)
+
