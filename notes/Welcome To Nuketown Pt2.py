@@ -24,7 +24,7 @@ class Player(object):
         self.current_location = new_location
 
     def find_next_room(self, directions):
-    """This method searches the current room so see if a room
+        """This method searches the current room so see if a room
                exists in that direction.
 
         :param direction: The direction that you want to move to

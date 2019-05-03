@@ -95,17 +95,42 @@ class Armor(Item):
         self.armor_amt = armor_amt
 
 
-class Head(Item):
+def got_hit(self):
+    self.durability -= 10
+    print("You got hit bad some of your durability")
+
+
+class Head(Armor):
     def __int__(self):
-        super(Head, self).__init__("Head", 140)
+        super(Head, self).__init__("Head", 150)
 
 
-class Neck(Item):
+class Neck(Armor):
     def __init__(self):
         super(Neck, self).__init__("Head", 120)
 
 
-class Shoulder(Item):
+class Shoulder(Armor):
     def __init__(self):
         super(Shoulder, self).__init__("Shoulder", 150)
+
+
+class Back(Item):
+    def __init__(self):
+        super(Back, self).__init__("Back", 120)
+
+
+class Chest(Armor):
+    def __init__(self):
+        super(Chest, self).__init__("Chest", 150)
+
+
+class Wrists(Armor):
+    def __init__(self):
+        super(Wrists, self).__init__("Wrists", 130)
+
+
+class Hands(Armor):
+    def __init__(self):
+        super(Hands, self).__init__("Hands", 150)
 
