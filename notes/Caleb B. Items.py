@@ -134,3 +134,9 @@ class Hands(Armor):
     def __init__(self):
         super(Hands, self).__init__("Hands", 150)
 
+
+class Waist(Armor):
+    def __init__(self):
+        super(Waist, self).__init__("Waist", 150)
+
+class Legs
