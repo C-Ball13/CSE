@@ -31,7 +31,7 @@ class Player(object):
         :return: The Room object if it exists, or None if it does not
         """
     name_of_room = getattr(self.current_location, directions)
-    return globals()[name_of_room]
+    return \globals()[name_of_room]
 
 
 
