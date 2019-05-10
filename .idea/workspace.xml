@@ -45,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes/CSV Notes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="35" column="31" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="37" selection-end-column="31" />
+            <state relative-caret-position="910">
+              <caret line="35" column="31" selection-start-line="31" selection-start-column="7" selection-end-line="37" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -60,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/notes/Sales.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+            <state relative-caret-position="104">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -78,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes/Welcome To Nuketown Pt2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+            <state relative-caret-position="494">
+              <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -90,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes/Caleb B. Items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
+            <state relative-caret-position="2366">
               <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
             </state>
           </provider>
@@ -98,11 +98,6 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes/Sales Records.csv">
-          <provider editor-type-id="LargeFileEditor">
-            <state relative-caret-position="130">
-              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-            </state>
-          </provider>
           <provider selected="true" editor-type-id="csv-data-editor">
             <state>
               <format>
@@ -117,6 +112,11 @@
                   </data>
                 </csv-format>
               </format>
+            </state>
+          </provider>
+          <provider editor-type-id="LargeFileEditor">
+            <state relative-caret-position="130">
+              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -176,8 +176,8 @@
         <option value="$PROJECT_DIR$/notes/Validated.py" />
         <option value="$PROJECT_DIR$/notes/Caleb B. Items.py" />
         <option value="$PROJECT_DIR$/notes/CSV Notes.py" />
-        <option value="$PROJECT_DIR$/notes/Sales.py" />
         <option value="$PROJECT_DIR$/notes/Welcome To Nuketown Pt2.py" />
+        <option value="$PROJECT_DIR$/notes/Sales.py" />
       </list>
     </option>
   </component>
@@ -242,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Welcome To Nuketown Pt2">
+  <component name="RunManager" selected="Python.Sales">
     <configuration name="Caleb B. Items" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -362,8 +362,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Welcome To Nuketown Pt2" />
         <item itemvalue="Python.Sales" />
+        <item itemvalue="Python.Welcome To Nuketown Pt2" />
         <item itemvalue="Python.Caleb B. Welcome To NvkeTown" />
         <item itemvalue="Python.Caleb B. Items" />
         <item itemvalue="Python.Validated" />
@@ -387,20 +387,21 @@
       <workItem from="1557160092162" duration="1106000" />
       <workItem from="1557244249511" duration="3316000" />
       <workItem from="1557330720698" duration="2795000" />
-      <workItem from="1557417073767" duration="2449000" />
+      <workItem from="1557417073767" duration="2471000" />
+      <workItem from="1557507620090" duration="2046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25956000" />
+    <option name="totallyTimeSpent" value="28024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="1" sideWeight="0.503876" side_tool="true" visible="true" weight="0.13006397" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49612403" visible="true" weight="0.13006397" />
+      <window_info id="Favorites" order="1" sideWeight="0.50270855" side_tool="true" weight="0.13006397" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49729145" visible="true" weight="0.13113007" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.30119178" />
@@ -428,9 +429,9 @@
     <SUITE FILE_PATH="coverage/CSE$Caleb_B__Items.coverage" NAME="Caleb B. Items Coverage Results" MODIFIED="1557330752847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$CSV_Notes.coverage" NAME="CSV Notes Coverage Results" MODIFIED="1556637062524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$Validated.coverage" NAME="Validated Coverage Results" MODIFIED="1556640149482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
-    <SUITE FILE_PATH="coverage/CSE$Sales.coverage" NAME="Sales Coverage Results" MODIFIED="1557420012763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
+    <SUITE FILE_PATH="coverage/CSE$Sales.coverage" NAME="Sales Coverage Results" MODIFIED="1557509678485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$Caleb_B__Welcome_To_NvkeTown.coverage" NAME="Caleb B. Welcome To NvkeTown Coverage Results" MODIFIED="1557417745769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
-    <SUITE FILE_PATH="coverage/CSE$Welcome_To_Nuketown_Pt2.coverage" NAME="Welcome To Nuketown Pt2 Coverage Results" MODIFIED="1557420393054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
+    <SUITE FILE_PATH="coverage/CSE$Welcome_To_Nuketown_Pt2.coverage" NAME="Welcome To Nuketown Pt2 Coverage Results" MODIFIED="1557508664667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/notes/HangMan.py">
@@ -534,20 +535,6 @@
     <entry file="file://$USER_HOME$/Downloads/IMG_0209.PNG">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/Book1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1612">
-          <caret line="62" column="10" selection-start-line="62" selection-end-line="62" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes/Dictionary World Map Caleb B..py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/notes/Sales Records (1).csv">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="514">
@@ -557,8 +544,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/CSV Notes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="35" column="31" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="37" selection-end-column="31" />
+        <state relative-caret-position="910">
+          <caret line="35" column="31" selection-start-line="31" selection-start-column="7" selection-end-line="37" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -571,17 +558,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/Caleb B. Items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
+        <state relative-caret-position="2366">
           <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/Sales Records.csv">
-      <provider editor-type-id="LargeFileEditor">
-        <state relative-caret-position="130">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="csv-data-editor">
         <state>
           <format>
@@ -598,11 +580,30 @@
           </format>
         </state>
       </provider>
+      <provider editor-type-id="LargeFileEditor">
+        <state relative-caret-position="130">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/Sales.py">
+    <entry file="file://$PROJECT_DIR$/notes/Book1.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        <state relative-caret-position="1612">
+          <caret line="62" column="10" selection-start-line="62" selection-end-line="62" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/Dictionary World Map Caleb B..py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/Welcome To Nuketown Pt2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -613,10 +614,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/Welcome To Nuketown Pt2.py">
+    <entry file="file://$PROJECT_DIR$/notes/Sales.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        <state relative-caret-position="104">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
