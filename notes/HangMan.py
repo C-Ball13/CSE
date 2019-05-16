@@ -13,7 +13,8 @@ length_word = len(hiddenWord)
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 wordbank = []
 
-
+next_room = player.find_room(command)
+            player.move(next_room)
 def beginning():
     print("Hello Player\n")
 
