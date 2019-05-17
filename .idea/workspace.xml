@@ -67,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes/Caleb B.Sales.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2478">
-              <caret line="103" column="41" lean-forward="true" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="41" />
+            <state relative-caret-position="823">
+              <caret line="103" column="41" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -76,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes/Caleb B. Welcome To NvkeTown.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="37" />
+            <state relative-caret-position="572">
+              <caret line="103" column="28" lean-forward="true" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -85,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/notes/Welcome To Nuketown Pt2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+            <state relative-caret-position="312">
+              <caret line="36" column="83" lean-forward="true" selection-start-line="36" selection-start-column="83" selection-end-line="36" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -161,11 +161,11 @@
         <option value="$PROJECT_DIR$/notes/Object Notes.py" />
         <option value="$PROJECT_DIR$/notes/Validated.py" />
         <option value="$PROJECT_DIR$/notes/CSV Notes.py" />
-        <option value="$PROJECT_DIR$/notes/Caleb B. Welcome To NvkeTown.py" />
         <option value="$PROJECT_DIR$/notes/Sales.py" />
         <option value="$PROJECT_DIR$/notes/Caleb B. Items.py" />
         <option value="$PROJECT_DIR$/notes/Caleb B.Sales.py" />
         <option value="$PROJECT_DIR$/notes/HangMan.py" />
+        <option value="$PROJECT_DIR$/notes/Caleb B. Welcome To NvkeTown.py" />
         <option value="$PROJECT_DIR$/notes/Welcome To Nuketown Pt2.py" />
       </list>
     </option>
@@ -180,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,7 +197,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -381,12 +381,13 @@
       <workItem from="1557764900684" duration="1066000" />
       <workItem from="1557849210778" duration="2208000" />
       <workItem from="1557935401671" duration="3410000" />
-      <workItem from="1558021788006" duration="3314000" />
+      <workItem from="1558021788006" duration="3331000" />
+      <workItem from="1558112132654" duration="2658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38217000" />
+    <option name="totallyTimeSpent" value="40892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -394,10 +395,10 @@
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" sideWeight="0.50270855" side_tool="true" weight="0.13006397" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49729145" visible="true" weight="0.13539445" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49729145" visible="true" weight="0.13646056" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.30119178" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.30119178" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -529,28 +530,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/CSV Notes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="35" column="31" selection-start-line="31" selection-start-column="7" selection-end-line="37" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes/Validated.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes/Caleb B. Items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="178" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/notes/Sales Records.csv">
+      <provider editor-type-id="LargeFileEditor">
+        <state relative-caret-position="130">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="csv-data-editor">
         <state>
           <format>
@@ -567,9 +552,25 @@
           </format>
         </state>
       </provider>
-      <provider editor-type-id="LargeFileEditor">
-        <state relative-caret-position="130">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/CSV Notes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="35" column="31" selection-start-line="31" selection-start-column="7" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/HangMan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/Caleb B. Items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="178" />
         </state>
       </provider>
     </entry>
@@ -589,29 +590,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/Caleb B.Sales.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2478">
-          <caret line="103" column="41" lean-forward="true" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="41" />
+        <state relative-caret-position="823">
+          <caret line="103" column="41" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/HangMan.py">
+    <entry file="file://$PROJECT_DIR$/notes/Validated.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="286">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/Caleb B. Welcome To NvkeTown.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="37" />
+        <state relative-caret-position="572">
+          <caret line="103" column="28" lean-forward="true" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/Welcome To Nuketown Pt2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        <state relative-caret-position="312">
+          <caret line="36" column="83" lean-forward="true" selection-start-line="36" selection-start-column="83" selection-end-line="36" selection-end-column="83" />
         </state>
       </provider>
     </entry>

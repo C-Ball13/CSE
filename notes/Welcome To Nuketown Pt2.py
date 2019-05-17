@@ -33,20 +33,20 @@ class Player(object):
         return globals()[name_of_room]
 
 
-Place_Unknown_Nuketown = Room("Nuketown Blue House", "This is where you are now", "Looped_Road")
-Looped_Road = Room("WestSide of looped Road", "", None, "Place Unknown Nuketown")
-Nuketown_Yellow_House = Room("Nuketown Yellow House", "", None, "Looped_Road")
-Nuketown_Yellow_Kitchen = Room("Yellow House Kitchen", "", None, "Nuketown_Yellow_House")
-Attic = Room("")
-Watermelon_Attic = Room
-Attic_Stairs = Room
-East_Side_attic = Room
-Rest_Room = Room
-Attic_Hallway = Room
-GBO_Game_Room = Room
-West_Side_Attic = Room
-Quad_Studios = Room
-hp_Afro_Repair = Room
+Place_Unknown_Nuketown = Room("Nuketown Blue House", "This is where you are now", None, None, "Looped_Road", None)
+Looped_Road = Room("WestSide of looped Road", "", None, "Place_Unknown_Nuketown", "", "")
+Nuketown_Yellow_House = Room("Nuketown Yellow House", "", None, "Looped_Road", "", "")
+Nuketown_Yellow_Kitchen = Room("Yellow House Kitchen", "", None, "Nuketown_Yellow_House", "", "")
+Attic = Room("Yellow House Attic", "", None, "Yellow_House_Kitchen", "", "")
+Watermelon_Attic = Room("Attic", "", None, "Attic", "", "")
+Attic_Stairs = Room("Attic Stairs", "", None, "Attic", "", "`")
+East_Side_attic = Room("East-Side Attic", "", None, "Attic_Stairs", "", "")
+Rest_Room = Room("Rest Room", "", None, "East-Side Attic", "", "")
+Attic_Hallway = Room("Hallway", "", None, "", "", "")
+GBO_Game_Room = Room("G-BO Game-Room", "", None, "", "", "")
+West_Side_Attic = Room("West-Side Attic", "", None, "", "", "")
+Quad_Studios = Room("Quad Studios", "", None, "", "", "")
+hp_Afro_Repair = Room("hp Afro Repair", "", None, "", "", "")
 player = Player(Place_Unknown_Nuketown)
 
 playing = True
