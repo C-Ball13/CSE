@@ -2,12 +2,14 @@ world_map = {}
 
 
 class Room(object):
-    def __init__(self, name, description, north=None, south=None, east=None,west=None):
+    def __init__(self, name, description, north=None, south=None, east=None,west=None, up=None, down=None):
         self.name = name
         self.north = north
         self.south = south
         self.east = east
         self.west = west
+        self.up = up
+        self.down = down
         self.description = description
         self.character = []
 
@@ -33,20 +35,24 @@ class Player(object):
         return globals()[name_of_room]
 
 
-Place_Unknown_Nuketown = Room("Nuketown Blue House", "This is where you are now", None, None, "Looped_Road", None)
-Looped_Road = Room("WestSide of looped Road", "", None, "Place_Unknown_Nuketown", "", "")
-Nuketown_Yellow_House = Room("Nuketown Yellow House", "", None, "Looped_Road", "", "")
-Nuketown_Yellow_Kitchen = Room("Yellow House Kitchen", "", None, "Nuketown_Yellow_House", "", "")
-Attic = Room("Yellow House Attic", "", None, "Yellow_House_Kitchen", "", "")
-Watermelon_Attic = Room("Attic", "", None, "Attic", "", "")
-Attic_Stairs = Room("Attic Stairs", "", None, "Attic", "", "`")
-East_Side_attic = Room("East-Side Attic", "", None, "Attic_Stairs", "", "")
-Rest_Room = Room("Rest Room", "", None, "East-Side Attic", "", "")
-Attic_Hallway = Room("Hallway", "", None, "", "", "")
-GBO_Game_Room = Room("G-BO Game-Room", "", None, "", "", "")
-West_Side_Attic = Room("West-Side Attic", "", None, "", "", "")
-Quad_Studios = Room("Quad Studios", "", None, "", "", "")
-hp_Afro_Repair = Room("hp Afro Repair", "", None, "", "", "")
+Place_Unknown_Nuketown = Room("Nuketown Blue House", "This is where you are now ", None, None, "Looped_Road", None,
+                              None, None)
+Looped_Road = Room("WestSide of looped Road", "There's and letter on the floor ", None, None, "Nuketown_Yellow_House",
+                   "Place_Unknown_Nuketown", None, None)
+Nuketown_Yellow_House = Room("Nuketown Yellow House", "There's items this house. But there an orc in the kitchen.",
+                             None, None, "Nuketown_Kitchen", "Looped_Road", None, None)
+Nuketown_Kitchen = Room("Yellow House Kitchen", "", None, None, None, None, "Nuketown_Yellow_House", "Attic")
+Attic = Room("Yellow House Attic", "", None, None, None, None, "Nuketown_Kitchen", "Watermelon_Attic")
+Watermelon_Attic = Room("Attic", "", None, None, None, None, "Attic", "Attic_Stairs")
+Attic_Stairs = Room("Attic Stairs", "", None, None, "East_Side_attic", "Watermelon_Attic", None, None)
+East_Side_attic = Room("East-Side Attic", "", None, None, None, None, "East_Side_attic", "Rest_Room")
+Rest_Room = Room("Rest Room", "", "Attic_Hallway", None, None, None, "East_Side_attic", None)
+Attic_Hallway = Room("Hallway", "", None, "Rest_Room", None, "GBO_Game_Room", None, None)
+GBO_Game_Room = Room("G-BO Game-Room", "", None, None, "Attic_Hallway", "West_Side_Attic", None, None)
+West_Side_Attic = Room("West-Side Attic", "", None, None, "GBO_Game_Room", "Quad_Studios", None, None)
+Quad_Studios = Room("Quad Studios", "", None, "hp_Afro_Repair", "West_Side_Attic", None)
+hp_Afro_Repair = Room("hp Afro Repair", "", "Quad_Studios", None, "Cafe", None, None, None)
+Cafe = Room("Cafeteria", "", None, None, None, "hp_Afro_Repair", None, None)
 player = Player(Place_Unknown_Nuketown)
 
 playing = True

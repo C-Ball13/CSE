@@ -101,7 +101,7 @@ world_map = {
             }
     },
     'hp Afro Repair': {
-        'NAME': "hp Afro Repair",
+        'NAME': "",
         'DESCRIPTION':  "Clouds sudden come out and you get Hit "
                         "with Lightning you fall on an bed with"
                         "two other beds a bear is on an bed"
