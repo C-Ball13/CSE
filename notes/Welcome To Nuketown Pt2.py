@@ -128,9 +128,9 @@ class Neck(Armor):
         super(Neck, self).__init__("Neck", 120)
 
 
-class Shoulder(Armor):
+class ShoulderBlades(Armor):
     def __init__(self):
-        super(Shoulder, self).__init__("Shoulder", 150)
+        super(ShoulderBlades, self).__init__("ShoulderBlades", 150)
 
 
 class BackPlate(Armor):
@@ -138,9 +138,9 @@ class BackPlate(Armor):
         super(BackPlate, self).__init__("BackPlate", 120)
 
 
-class Chest(Armor):
+class ChestPlate(Armor):
     def __init__(self):
-        super(Chest, self).__init__("Chest", 150)
+        super(ChestPlate, self).__init__("ChestPlate", 150)
 
 
 class Wrists(Armor):
@@ -148,9 +148,9 @@ class Wrists(Armor):
         super(Wrists, self).__init__("Wrists", 130)
 
 
-class Hands(Armor):
+class Gloves(Armor):
     def __init__(self):
-        super(Hands, self).__init__("Hands", 150)
+        super(Gloves, self).__init__("Gloves", 150)
 
 
 class Waist(Armor):
@@ -158,9 +158,9 @@ class Waist(Armor):
         super(Waist, self).__init__("Waist", 150)
 
 
-class Legs(Armor):
+class Legging(Armor):
     def __init__(self):
-        super(Legs, self).__init__("Legs", 150)
+        super(Legging, self).__init__("Legging", 150)
 
 
 class Feet(Armor):
@@ -253,20 +253,20 @@ Place_Unknown_Nuketown = Room("Nuketown Blue House", "This is where you are now 
                               None, None, None)
 Looped_Road = Room("WestSide of looped Road", "There some word on the wall but its unreadable "
                                               "and helmet next to it", None,
-                   None, "Nuketown_Yellow_House", "Place_Unknown_Nuketown", None, None, [orc], [helmet])
+                   None, "Nuketown_Yellow_House", "Place_Unknown_Nuketown", None, None, [orc], Helmet())
 Nuketown_Yellow_House = Room("Nuketown Yellow House", "there's an chest plate on the couch and dead body next to it.",
-                             None, None, "Nuketown_Kitchen", "Looped_Road", None, None, None, [Chest])
+                             None, None, "Nuketown_Kitchen", "Looped_Road", None, None, None, ChestPlate())
 Nuketown_Kitchen = Room("Yellow House Kitchen", "There's an orc eating food and in your vision there's an gun XR2",
-                        None, None, None, None, "Nuketown_Yellow_House", "Attic", [orc2], [XR2])
+                        None, None, None, None, "Nuketown_Yellow_House", "Attic", [orc2], XR2)
 Attic = Room("Yellow House Attic", "there's two orc in here ready to kill you better think fast. ", None, None, None,
              None, "Nuketown_Kitchen", "Watermelon_Attic", [orc3])
-Watermelon_Attic = Room("Attic", "this is an bigger attic and there some gloves and leggings as armor ", None, None,
-                        None, None, "Attic", "Attic_Stairs", None, [Hands, Legs])
+Watermelon_Attic = Room("Attic", "this is an bigger attic and there some gloves and legging as armor ", None, None,
+                        None, None, "Attic", "Attic_Stairs", None, [Gloves, Legging])
 Attic_Stairs = Room("Attic Stairs", "there's an orc on theses stairs kill him now", None, None, "East_Side_attic",
                     "Watermelon_Attic", None, None, [orc4])
 East_Side_attic = Room("East-Side Attic", "There some boots on the floor and back plate and "
                                           "be careful orc be popping out", None, None, None, None, "East_Side_attic",
-                       "Rest_Room", [orc5], [Feet, Back])
+                       "Rest_Room", [orc5], [Feet, BackPlate])
 Rest_Room = Room("Rest Room", "there's some wrists guards that boost your health ", "Attic_Hallway", None, None, None,
                  "East_Side_attic", None, None, [Wrists])
 Attic_Hallway = Room("Attic_Hallway", "there's an orc that look bigger than all the other one's "
@@ -284,7 +284,7 @@ hp_Afro_Repair = Room("hp Afro Repair", "an light turn on and says grab 2 thing 
                       None, [MarksmanRifle, AssaultShotgun, Axe, SMG])
 Cafe = Room("Cafeteria", "you should put and necklaces and some shoulder blades on "
                          "that's on the wall because there's an boss orc you have to kill ",
-            None, None, None, "hp_Afro_Repair", None, None, [orc10], [Neck, Shoulder])
+            None, None, None, "hp_Afro_Repair", None, None, [orc10], [Neck, ShoulderBlades])
 player = Player(Place_Unknown_Nuketown)
 
 
@@ -315,11 +315,11 @@ while playing:
         command1 = command.lower().split()
         thing = "" "".join(command1[1:])
         try:
-            grabbed = False
             for i in range(len(player.current_location.item)):
+                grabbed = False
                 if player.current_location.item[i - 1].name.lower() == thing.lower():
                     itemindex = i - 1
-                    if issubclass(type(player.current_location.item[itemindex]), Weapon)is True:
+                    if issubclass(type(player.current_location.item[itemindex]), Weapon):
                         if player.weapon is None:
                             player.weapon = player.current_location.item[itemindex]
                         else:
@@ -332,8 +332,8 @@ while playing:
                     print(player.current_location.item[itemindex].name + "has been added to your inventory")
                     player.current_location.item.pop(itemindex)
                     grabbed = True
-            if grabbed is False:
-                print("That item is not here")
+                if grabbed is False:
+                    print("That item is not here")
         except TypeError:
             print("There is nothing to pick up")
 
